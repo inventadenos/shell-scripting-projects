@@ -1,5 +1,20 @@
 #!/bin/bash
 
+###########################################################
+
+# Title: Script to set up s3 event trigger with lambda and sns notification
+
+# Author: Ufuoma EleOvie
+
+# Date: 30-JUNE-2023
+
+# Version: 01
+
+# Pre-requisites - Install git, jq, zip, unzip, aws cli, 
+
+sudo apt-get install git jq zip unzip -y
+
+###########################################################
 set -x
 
 # Store the AWS account ID in a variable
